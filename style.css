@@ -37,3 +37,14 @@ body{
     font-family: var(--fonte-principal);
     font-size: 32px;
 }
+.titulo-secundario{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+#campo-senha:focus{
+    outline: none;
+}
