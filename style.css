@@ -3,7 +3,7 @@
 :root{
     --branco:white;
     --cor--de--fundo:#9e63a8;
-    --fundo-senha:#b57edc;;
+    --fundo-senha:#5b2383;;
     --fundo-senha:#aa5db4;
     --fundo-texto:#5d1d88;
     --borda:#a96ac9;
@@ -43,8 +43,8 @@ body{
     font-size: 24px;
 }
 img{
-    width: 6%;
-    height: 6%;
+    width: 8%;
+    height: 8%;
 }
 #campo-senha:focus{
     outline: none;
