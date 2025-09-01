@@ -96,4 +96,34 @@ label{
         flex-direction: row;
     }
 }
-    
+.checkbox{
+    width: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #b70f0f;
+    position: relative;
+    bottom: 30px;
+}
+.media{
+    height: 30px;
+    width: 50%;
+    background-color:#d4db0e;
+    position: relative;
+    bottom: 30px;
+}
+.forte{
+    height: 30px;
+    width: 100%;
+    background-color:#28d355;
+    position: relative;
+    bottom: 30px;
+}
