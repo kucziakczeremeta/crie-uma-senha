@@ -41,6 +41,17 @@ function geraSenha (){
     }
     let senha = ';';
     for (let i = 0; i < tamanhoSenha; i++){
-        
+        let numeroAleatorio = Math.random () * alfabeto.length;
+        numeroAleatorio = Math.floor (numeroAleatorio);
+        senha = senha + alfabeto[numeroAleatorio];
+    }
+    campoSenha.value = senha;
+    classificaSenha(alfabeto.length);
+}
+function classificaSenha(tamanhoAlfabeto){
+    let entropia = tamanhoSenha * match.log2(tamanhoAlfabetos);
+    forcaSenha.classList.remove('fraca', 'media', 'forte');
+    if (entropia > 57){
+
     }
 }
